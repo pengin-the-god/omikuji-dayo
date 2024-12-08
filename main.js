@@ -25,6 +25,7 @@ document.querySelector("#a7").classList.add("close");
 
 document.querySelector(".omikuji-btn").addEventListener("click", () => {
     document.querySelector(".kesu").classList.add("close");
+    audio3.play();
     audio2.play();
 
     document.querySelector(".white").style.opacity = "1";
